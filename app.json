@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "test-org",
-    "slug": "test-org",
+    "slug": "test",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -31,6 +31,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "233afc5b-a1cf-4d00-8a90-fec1990a15ab"
+      }
+    },
+    "owner": "techno_hub"
   }
 }
