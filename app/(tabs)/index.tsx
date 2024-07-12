@@ -9,7 +9,7 @@ import { storage } from "../storage";
 
 export default function HomeScreen() {
   useEffect(()=>{
-    storage.set('username','Wai Linn Aung')
+    storage.set('username','')
   },[])
   return (
     <ParallaxScrollView
